@@ -6,6 +6,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav>
+        <img src="./assets/2308_gogglebox_logo.png" />
+        <button>Sign in</button>
+    </nav>
+    <div class="content">
+        <picture>
+            <source srcset="./assets/2308_desktop_hero.jpg" alt="Desktop Hero Image" media="(width >= 580px)" />
+            <img src="./assets/2308_mobile_hero.jpg" alt="Mobile Hero Image" />
+        </picture>
+        <h1 class="now-playing-header">Now Playing</h1>
+        <div class="now-playing">
+            <div class="portrait-pic">
+                <img class="portrait-img" src="./assets/2308_01_now_playing.jpg" />
+            </div>
+            <div class="landscape-pics">
+                <img src="./assets/2308_02_now_playing.jpg" />
+                <img src="./assets/2308_03_now_playing.jpg" />
+            </div>
+        </div>
+        <div class="tomorrows-schedule"></div>
+    </div>
+    <!-- Script for fetching movie list -->
     <script src="./script.js"></script>
 </body>
 </html>
