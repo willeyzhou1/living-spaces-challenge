@@ -2,7 +2,7 @@
     font-family: Arial;
     background-color: #2E083D;
     color: white;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 body {
@@ -23,6 +23,7 @@ nav img {
 
 nav button {
     background-color: transparent;
+    border-color: transparent;
 }
 
 .content {
@@ -48,10 +49,10 @@ picture {
     padding-bottom: 1rem;
 }
 
-.now-playing {
-  display: flex;
-  align-items: flex-start;
-  gap: 2%;
+.now-playing { 
+    display: flex;
+    align-items: flex-start;
+    gap: 2%;
 }
 
 .portrait-pic {
@@ -59,21 +60,21 @@ picture {
 }
 
 .portrait-img {
-  width: auto;
-  height: auto;
-  display: block;
+    width: auto;
+    height: auto;
+    display: block;
 }
 
 .landscape-pics {
-  display: flex;
-  flex-direction: column;
-  gap: 4%;
-  aspect-ratio: 4 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    aspect-ratio: 4 / 3;
 }
 
 .landscape-pics img {
-  width: auto;
-  height: auto;
-  display: block;
+    width: auto;
+    height: auto;
+    display: block;
 }
 
