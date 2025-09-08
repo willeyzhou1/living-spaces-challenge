@@ -80,7 +80,7 @@ picture {
 }
 
 .tomorrows-schedule img:not(:last-child) {
-    padding-right: 2rem;
+    margin-right: 2rem;
 }
 
 .tomorrows-schedule::-webkit-scrollbar {
