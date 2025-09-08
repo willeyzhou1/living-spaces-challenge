@@ -8,17 +8,12 @@
 body {
     margin: 0;
 }
+
 nav {
     background-color: #000;
-    width: auto;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 5rem;
-}
-
-nav img {
-    height: 100%;
-    margin: auto 0;
+    padding: 1rem 5%;
 }
 
 nav button {
@@ -37,7 +32,6 @@ nav button {
 
 .content img {
     max-width: 100%;
-    height: auto;
     object-fit: contain;
     border-radius: 6px;
 }
@@ -78,3 +72,46 @@ picture {
     display: block;
 }
 
+.tomorrows-schedule {
+    margin-top: 1.5rem;
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 3rem;
+}
+
+.tomorrows-schedule img:not(:last-child) {
+    padding-right: 2rem;
+}
+
+.tomorrows-schedule::-webkit-scrollbar {
+    height: 8px;
+}
+
+.tomorrows-schedule::-webkit-scrollbar-thumb, .tomorrows-schedule::-webkit-scrollbar-track {
+    border-radius: 16px;
+}
+
+.tomorrows-schedule::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #FF5C00, #CB2DF7)
+}
+
+.tomorrows-schedule::-webkit-scrollbar-track {
+    background: #000;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 3rem;
+    font-size: 13px;
+}
+
+@media (max-width: 580px) {
+    .now-playing {
+        display: block;
+    }
+
+    .now-playing img {
+        padding: 0.5rem 0;
+    }
+}
